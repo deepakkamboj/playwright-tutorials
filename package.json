@@ -1,0 +1,38 @@
+{
+  "name": "playwright-tutorials",
+  "version": "1.0.0",
+  "description": "A set of Playwright tutorials",
+  "main": "index.js",
+  "author": "Deepak Kamboj",
+  "license": "ISC",
+  "scripts": {
+    "build": "tsc",
+    "install": "npx playwright install",
+    "record": "npx playwright codegen",
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test --ui",
+    "test:debug": "npx playwright test --debug",
+    "test:headed": "npx playwright test --headed",
+    "test:report": "npx playwright show-report",
+    "prettier": "prettier --check **/*{.ts,.tsx,.js,.json}",
+    "prettier:fix": "prettier --write **/*{.ts,.tsx,.js,.json}",
+    "run-trace": "npx ts-node src/traces/trace.ts",
+    "run-test": "npx ts-node src/tests/test-0.ts"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^20.0.0",
+      "@types/minimist": "1.2.0",
+    "playwright": "1.55.0",
+    "playwright-core": "1.55.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "eslint": "^7.32.0",
+     "minimist": "1.2.6",
+    "prettier": "^2.4.0"
+  }
+}
