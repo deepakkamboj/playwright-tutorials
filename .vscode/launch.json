@@ -1,0 +1,35 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "name": "vscode-playwright-tests",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "args": ["-c", "playwright.config.ts"],
+      // For local debugging of integration tests -
+      // (1) Uncomment below ["args" key] line and comment above ["args" key] line.
+      // (2) And modify the 'jest.pathToConfig' variable in 'settings.json' as per comment in that file.
+      // After this, user can step through test code by clicking "Debug" on top of each test case.
+      // "args": ["--runInBand", "-c", "jest.config.integration.js"],
+      //	"program": "${workspaceFolder}/node_modules/.bin/jest",
+      //	"windows": {
+      //		"program": "${workspaceFolder}/node_modules/jest/bin/jest"
+      //	},
+      // Update TARGETMACHINE, USERNAME, PASSWORD, HEADLESS, ENVIRONMENTTYPE and full MAKERURL as per local setup
+      // Full MAKERURL looks like https://make.test.powerapps.com/environments/<id of your org>/home"
+      "env": {
+        "BROWSER": "chromium",
+        "TARGETMACHINE": "auroravXXXXX.auroravXXXXXdom.extest.microsoft.com",
+        "USERNAME": "CRMUSER",
+        "PASSWORD": "...",
+        "HEADLESS": "false",
+        "ENVIRONMENTTYPE": "onprem",
+        "MAKERURL": "..."
+      }
+    }
+  ]
+}

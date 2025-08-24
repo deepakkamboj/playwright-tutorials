@@ -1,0 +1,3 @@
+npx playwright test locators
+
+npx playwright test searchProductDesktop

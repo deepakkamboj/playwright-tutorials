@@ -1,0 +1,6 @@
+    [
+      './src/reporter/reporter.ts',
+      {
+        outputDir: './test-results',
+      },
+    ],

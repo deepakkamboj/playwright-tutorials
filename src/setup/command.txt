@@ -1,0 +1,26 @@
+npx playwright test --project=setup
+
+,
+  projects: [
+    {
+      name: 'Chromium',
+      use: { browserName: 'chromium' },
+    },
+    {
+      name: 'Firefox',
+      use: { browserName: 'firefox' },
+    },
+    {
+      name: 'WebKit',
+      use: { browserName: 'webkit' },
+    },
+    {
+      name: 'setup',
+      testDir: 'src/setup',
+      testMatch: /.*\.setup\.ts$/,
+      use: {
+        browserName: 'chromium',
+        baseURL: 'https://playwright-playground.vercel.app/',
+      },
+    },
+  ],
