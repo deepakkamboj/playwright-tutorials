@@ -1,30 +1,36 @@
-# Playwright Parallel Testing & CI Pipeline 🚀
+# Playwright Tutorials 🚀
 
-## Tech Stack
-- ![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)
-- ![Playwright](https://img.shields.io/badge/Playwright-1.55.0-green?logo=playwright)
-- ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=github-actions&logoColor=white)
-- ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+This repository contains Playwright end-to-end automation tutorials and sample projects using the [Playwright Playground](https://playwright-playground.vercel.app/).
 
-## Architecture
+## Playground Demo
+- [Playwright Playground](https://playwright-playground.vercel.app/)
 
-```mermaid
-graph TD
-    A[Developer] -->|Push Code| B[GitHub Repo]
-    B -->|CI Trigger| C[GitHub Actions]
-    C -->|Install & Build| D[Playwright Tests]
-    D -->|Parallel Execution| E[Browsers]
-    E -->|Results| F[Reports & Artifacts]
-```
+## Features
+- Page Object Model (POM) structure
+- Parallel cross-browser testing (Chromium, Firefox, WebKit)
+- Authentication and user session setup
+- Sample login flows and dashboard navigation
+- JUnit XML reporting
+- TypeScript support
 
-## Sample Pipeline
-- [Sample GitHub Actions Workflow](https://github.com/your-org/your-repo/.github/workflows/playwright.yml)
+## Getting Started
+
+1. Clone the repository
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+3. Run tests:
+   ```sh
+   npx playwright test
+   ```
 
 ## Project Structure
-
 ```
 src/
   pages/
+  setup/
+  data/
   tests/
   utils/
 .github/
@@ -32,69 +38,55 @@ src/
     playwright.yml
 ```
 
-## Workflow
-1. Developer pushes code to GitHub.
-2. GitHub Actions triggers Playwright tests in parallel.
-3. Results and reports are generated and stored as artifacts.
+## Playground URLs
+- Login: `https://playwright-playground.vercel.app/login`
+- Dashboard: `https://playwright-playground.vercel.app/dashboard`
+- Home: `https://playwright-playground.vercel.app/`
+
+## Author & Support
+- For detailed tutorials visit: https://deepakkamboj.com/
+- Contact: [Deepak Kamboj on LinkedIn](https://www.linkedin.com/in/kambojdeepak/)
 
 ---
 
-# playwright-framework
-Playwright End to End Automation Framework using Playwright Test Runner.
+# About Playwright
+Playwright is a Node.js library to automate Chromium, Firefox, and WebKit with a single API. It enables fast, reliable, and capable automation across all modern browsers.
 
-1. Uses Page Object Model
-2. Junit XML Reports will be generated automatically
+## Capabilities
+- Multi-page, domain, and iframe support
+- Network interception and mocking
+- Mobile device emulation
+- Native input events
+- Upload & download support
+- Auto-wait APIs and timeout-free automation
+- Wide variety of selectors & shadow DOM support
 
-For Detailed Tutorial Visit https://deepakkamboj.com/
+## More Playwright Capabilities
 
-If you have any questions contact me on linkedIn https://www.linkedin.com/in/kambojdeepak/
+- **Cross-browser automation**: Test on Chromium, Firefox, and WebKit
+- **Headless and headful modes**: Run tests with or without UI
+- **Parallel test execution**: Speed up test runs with multiple workers
+- **Browser context isolation**: Create multiple independent sessions in one browser instance
+- **Network interception and mocking**: Stub requests, modify responses, and simulate network conditions
+- **Device emulation**: Simulate mobile devices, geolocation, permissions, and more
+- **Advanced selectors**: Use text, CSS, XPath, role, and custom locators
+- **Shadow DOM support**: Interact with elements inside shadow roots
+- **Automatic waiting**: Playwright waits for elements to be actionable before performing actions
+- **Screenshots and video recording**: Capture screenshots and videos for debugging and reporting
+- **Tracing**: Record and analyze test execution traces
+- **Custom reporters**: Integrate with CI/CD and generate custom reports
+- **Test retries**: Automatically retry failed tests
+- **Multi-language support**: Use Playwright with TypeScript, JavaScript, Python, Java, and .NET
+- **API testing**: Send HTTP requests and validate API responses
+- **Accessibility testing**: Integrate with tools like axe-playwright
+- **Authentication flows**: Save and reuse authentication state across tests
 
-## What is Playwright?
-The playwright is a Node.js library to automate Chromium, Firefox, and WebKit with a single API. Playwright is built to enable cross-browser web testing.
+## Used Tools
+- [playwright](https://playwright.dev/)
+- [axe-playwright](https://www.npmjs.com/package/axe-playwright)
+- [Playwright test runner](https://github.com/microsoft/playwright-test)
 
-Playwright by Microsoft did start as a fork of Puppeteer
-Puppeteer is a node library to automate the chromium browsers with the JavaScript API
-### Capabilities:
-* It spans multiple pages, domains, and iframes
-* Intercept network activity for stubbing and mocking network requests
-* Emulate mobile devices, geolocation, permissions
-* Native input events for mouse and keyboard
-* Upload & download support
-
-Playwright enables fast, reliable, and capable automation across all modern browsers
-
-### Support for all browsers
-* Test on Chromium, Firefox, and WebKit
-* Test for mobile (device emulation)
-* Headless and headful
-
-### Fast and reliable execution
-* Auto-wait APIs (clicks, types, etc)
-* Timeout-free automation
-* Lean parallelization with browser contexts
-* Wide variety of selectors (locators) & shadow-dom support
-* Can handle single page application
-
-### Used tools for Playwright Integration Tests
-- [playwright](https://playwright.dev/) - Playwright is a Node.js library to automate tests cases for Chromium, Firefox and WebKit with a single API
-- [axe-playwright](https://www.npmjs.com/package/axe-playwright) - Analyses the page and identifies accessibility issues.
-- [Playwright test runner](https://github.com/microsoft/playwright-test) - Zero config cross-browser end-to-end testing for web apps. Browser automation with Playwright, Jest-like assertions and built-in support for TypeScript.
-
-## Getting Started
-
-Playwright is easy to install and start to work with. Just have to create a fresh project and install the playwright as a dependency.
-
-### Create a new project
-`$ npm init -y`
-
-### Install Playwright
-`$ npm install — save-dev @playwright/test`
-
-### Choosing Typescript as the scripting language
-`$ npm install — save-dev typescript`
-
-### Typescript config in “tsconfig.json“
-
+## TypeScript Config Example
 ```
 {
   "compilerOptions": {
@@ -106,4 +98,6 @@ Playwright is easy to install and start to work with. Just have to create a fres
   "include": ["src"]
 }
 ```
-** As per config, we should add all tests & other classes inside of the “src/” folder
+
+---
+This project is designed for learning and experimenting with Playwright using the Playground demo site.
