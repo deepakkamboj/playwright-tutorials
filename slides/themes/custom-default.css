@@ -38,7 +38,9 @@ footer img {
   margin-left: 12px; /* Space between text and image */
 }
 
-
+.cols-2 ol {
+  columns: 2;
+}
 
 .columns {
   display: grid;
