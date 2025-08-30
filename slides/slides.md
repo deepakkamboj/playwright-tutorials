@@ -27,6 +27,8 @@ footer: 'https://deepakkamboj.com'
 
 # Agenda
 
+<div class="columns">
+<div>
 - Introduction to Playwright
 - Why Playwright?
 - Playwright Architecture
@@ -36,6 +38,8 @@ footer: 'https://deepakkamboj.com'
   - Auto Waits
   - Codeless Test Automation with Playwright
   - Locating Elements
+  </div>
+<div>
 - Playwright Tooling
   - Playwrighrt Codegen
   - UI Mode
@@ -43,6 +47,8 @@ footer: 'https://deepakkamboj.com'
   - Playwright inspector
   - Trace viewer
 
+</div>
+</div>
 
 
 ---
@@ -158,6 +164,10 @@ Playwright enables fast, reliable and capable automation across all modern brows
 - Test for mobile (device emulation to test your responsive web apps in mobile web browsers.)
 - Headless and headful (with and without browser UI)
 - Cross-platform WebKit testing (With Playwright, test how your app behaves in Apple Safari with WebKit builds for Windows, Linux and macOS.)
+
+---
+
+# Why Playwright?
 
 ## Fast and reliable execution
 - Timeout-free automation
