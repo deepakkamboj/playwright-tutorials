@@ -5,7 +5,7 @@
 
 footer {
   /* Base layout */
-  width: 100%;
+  width: 100% !important;
   height: 50px; /* Adjust height as needed */
 
 
@@ -13,6 +13,8 @@ footer {
   display: flex;
   justify-content: flex-end; /* Align content to the right */
   align-items: center;
+
+  left: 100px;
 
 
 }
@@ -36,7 +38,7 @@ footer img {
   margin-left: 12px; /* Space between text and image */
 }
 
-.cols-2 ol {
+.cols-2 ol, .cols-2 ul {
   columns: 2;
 }
 
