@@ -16,7 +16,7 @@ footer: 'https://deepakkamboj.com'
 
 ### Senior Risk SRE<br>Azure CXP AzRel<br>Microsoft
 
-<i class="fa-brands fa-bluesky"></i> BlueSky: [@deepakkamboj.com](https://deepakkamboj.com)
+<i class="fa-brands fa-bluesky"></i> Website: [@deepakkamboj.com](https://deepakkamboj.com)
 <i class="fa-brands fa-linkedin"></i> LinkedIn: - [Deepak Kamboj](https://linkedin.com/in/kambojdeepak/)
 <i class="fa fa-window-maximize"></i> Blog: [https://deepakkamboj\.com/](https://deepakkamboj.com/)
 <i class="fa-brands fa-github"></i> GitHub: [deepakkamboj](https://github.com/deepakkamboj)
@@ -421,12 +421,10 @@ To learn more about Microsoft Playwright Testing, refer to:
 
 ## Contact
 
-<i class="fa-brands fa-bluesky"></i> BlueSky: [@deepakkamboj.com](https://bsky.app/profile/deepakkamboj.com)
-<i class="fa-brands fa-linkedin"></i> LinkedIn: - [chris\-l\-ayers](https://linkedin.com/in/chris-l-ayers/)
-<i class="fa fa-window-maximize"></i> Blog: [https://chris-ayers\.com/](https://deepakkamboj.com/)
-<i class="fa-brands fa-github"></i> GitHub: [Codebytes](https://github.com/codebytes)
-<i class="fa-brands fa-mastodon"></i> Mastodon: @Chrisayers@hachyderm.io
-~~<i class="fa-brands fa-twitter"></i> Twitter: @Chris_L_Ayers~~
+<i class="fa-brands fa-bluesky"></i> Website: [@deepakkamboj.com](https://deepakkamboj.com)
+<i class="fa-brands fa-linkedin"></i> LinkedIn: - [Deepak Kamboj](https://linkedin.com/in/kambojdeepak/)
+<i class="fa fa-window-maximize"></i> Blog: [https://deepakkamboj\.com/](https://deepakkamboj.com/)
+<i class="fa-brands fa-github"></i> GitHub: [deepakkamboj](https://github.com/deepakkamboj)
 
 </div>
 </div>
