@@ -307,6 +307,52 @@ npm install --save-dev @playwright/test
 
 ---
 
+# First sample test in Playwright
+
+
+__Launch test__
+
+```ts
+import { chromium } from '@playwright/test';
+
+export async function runTest(): Promise<void> {
+  // launch browser
+  const browser = await chromium.launch();
+  // create browser context
+  const context = await browser.newContext();
+  // open page
+  const page = await context.newPage();
+  // navigate to a website
+  await page.goto('https://www.w3schools.com/');
+  // close browser
+  await browser.close();
+}
+```
+
+---
+
+__Launch test__
+
+```ts {5}
+import { chromium } from '@playwright/test';
+
+export async function runTest(): Promise<void> {
+  // launch browser
+  const browser = await chromium.launch({headless: false});
+  // create browser context
+  const context = await browser.newContext();
+  // open page
+  const page = await context.newPage();
+  // navigate to a website
+  await page.goto('https://www.w3schools.com/');
+  // close browser
+  await browser.close();
+}
+```
+
+---
+
+
 
 # Locators
 
