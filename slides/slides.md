@@ -27,11 +27,23 @@ footer: 'https://deepakkamboj.com'
 
 # Agenda
 
-- What is Testing?
-- What is Playwright?
-- Benefits of Using Playwright
-- Creating End-to-End Tests with Playwright
-- Integrating with Continuous Integration
+- Introduction to Playwright
+- Why Playwright?
+- Playwright Architecture
+- Installation and getting started
+- Launch Browser
+- Writing a test in Playwright
+  - Auto Waits
+  - Codeless Test Automation with Playwright
+  - Locating Elements
+- Playwright Tooling
+  - Playwrighrt Codegen
+  - UI Mode
+  - Playwright reports
+  - Playwright inspector
+  - Trace viewer
+
+
 
 ---
 
@@ -120,6 +132,40 @@ footer: 'https://deepakkamboj.com'
   - <i class="fa-brands fa-safari"></i> WebKit
 
 ---
+
+# What is Playwright?
+
+Playwright is a Node.js library to automate Chromium, Firefox and WebKit with a single API. Playwright is built to enable cross-browser web testing.
+- Playwright by Microsoft did start as a fork of Puppeteer
+- Puppeteer is a node library to automate the chromium browsers with the JavaScript API
+
+## Capabilities:
+- Scenarios that span multiple page, domains and iframes
+- Auto-wait for elements to be ready before executing actions (like click, fill)
+- Intercept network activity for stubbing and mocking network requests
+- Emulate mobile devices, geolocation, permissions
+- Native input events for mouse and keyboard
+- Upload & download support
+
+---
+
+# Why Playwright?
+
+Playwright enables fast, reliable and capable automation across all modern browsers
+
+## Support for all browsers
+- Test on Chromium, Firefox and WebKit
+- Test for mobile (device emulation to test your responsive web apps in mobile web browsers.)
+- Headless and headful (with and without browser UI)
+- Cross-platform WebKit testing (With Playwright, test how your app behaves in Apple Safari with WebKit builds for Windows, Linux and macOS.)
+
+## Fast and reliable execution
+- Timeout-free automation
+- Lean parallelization with browser contexts
+- Wide variety of selectors (locators) & shadow-DOM support
+- Can handle Single Page Application
+---
+
 
 # Language Support
 
@@ -239,6 +285,28 @@ For example, for *page.click()*, Playwright will ensure that:
 </div>
 
 ---
+
+# Installation and getting started
+
+
+## Pre-requisites:
+- NodeJS
+- VS Code Editor
+- Basic understanding of NPM
+
+```bash
+npm i -D @playwright/test
+```
+
+<br>
+
+```bash
+npm install --save-dev @playwright/test
+```
+
+
+---
+
 
 # Locators
 
