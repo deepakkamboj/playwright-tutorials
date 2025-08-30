@@ -51,4 +51,39 @@ pre ol li.hl > * {
   background: #fff59d; /* tweak as you like */
 }
 
+/* Reset ordered list */
+pre ol.code-block {
+  all: unset;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  counter-reset: lno 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Lines */
+pre ol.code-block li {
+  display: contents;
+  white-space: pre;
+}
+
+/* Line numbers */
+pre ol.code-block li > [data-lno]::before {
+  display: block;
+  counter-increment: lno;
+  content: counter(lno) " ";
+  text-align: right;
+  opacity: .6;
+  padding-right: .75rem;
+}
+
+/* Disable line numbers if no-linenos */
+pre ol.code-block.no-linenos {
+  grid-template-columns: 1fr; /* drop first column */
+}
+pre ol.code-block.no-linenos li > [data-lno] {
+  display: none;
+}
+
+
 @import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css'
