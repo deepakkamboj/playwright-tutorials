@@ -21,7 +21,7 @@ footer: 'https://deepakkamboj.com'
 <i class="fa fa-window-maximize"></i> Blog: [https://deepakkamboj\.com/](https://deepakkamboj.com/)
 <i class="fa-brands fa-github"></i> GitHub: [deepakkamboj](https://github.com/deepakkamboj)
 
-~~<i class="fa-brands fa-twitter"></i> Twitter: @Chris_L_Ayers~~
+
 
 ---
 
