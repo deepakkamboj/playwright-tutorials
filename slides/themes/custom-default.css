@@ -28,4 +28,27 @@ svg[id^="mermaid-"] {
   max-height: 600px; 
 }
 
+pre ol {
+  all: unset;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  counter-reset: lno 0;
+}
+pre ol li { display: contents; }
+
+/* Line numbers */
+pre ol li > [data-lno]::before {
+  display: block;
+  counter-increment: lno;
+  content: counter(lno) " ";
+  text-align: right;
+  opacity: .6;
+  padding-right: .75rem;
+}
+
+/* The highlighted lines */
+pre ol li.hl > * {
+  background: #fff59d; /* tweak as you like */
+}
+
 @import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css'
