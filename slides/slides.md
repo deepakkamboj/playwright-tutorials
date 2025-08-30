@@ -314,13 +314,13 @@ For example, for *page.click()*, Playwright will ensure that:
 - VS Code Editor
 - Basic understanding of NPM
 
-```bash
+```bash {no-linenos}
 npm i -D @playwright/test
 ```
 
 <br>
 
-```bash
+```bash {no-linenos}
 npm install --save-dev @playwright/test
 ```
 
