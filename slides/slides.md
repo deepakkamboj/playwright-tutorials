@@ -16,7 +16,7 @@ footer: 'https://deepakkamboj.com'
 
 ### Senior Software Engineer<br>Power Platform Team<br>Microsoft
 
-<i class="fa-brands fa-bluesky"></i> Website: [@deepakkamboj.com](https://deepakkamboj.com)
+<i class="fa-brands fa-envelope"></i> Email: [deepakkamboj@gmail.com](deepakkamboj@gmail.com)
 <i class="fa-brands fa-linkedin"></i> LinkedIn: - [Deepak Kamboj](https://linkedin.com/in/kambojdeepak/)
 <i class="fa fa-window-maximize"></i> Blog: [https://deepakkamboj\.com/](https://deepakkamboj.com/)
 <i class="fa-brands fa-github"></i> GitHub: [deepakkamboj](https://github.com/deepakkamboj)
@@ -421,7 +421,7 @@ To learn more about Microsoft Playwright Testing, refer to:
 
 ## Contact
 
-<i class="fa-brands fa-bluesky"></i> Website: [@deepakkamboj.com](https://deepakkamboj.com)
+<i class="fa-brands fa-envelope"></i> Email: [deepakkamboj@gmail.com](deepakkamboj@gmail.com)
 <i class="fa-brands fa-linkedin"></i> LinkedIn: - [Deepak Kamboj](https://linkedin.com/in/kambojdeepak/)
 <i class="fa fa-window-maximize"></i> Blog: [https://deepakkamboj\.com/](https://deepakkamboj.com/)
 <i class="fa-brands fa-github"></i> GitHub: [deepakkamboj](https://github.com/deepakkamboj)
