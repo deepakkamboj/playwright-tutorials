@@ -14,7 +14,7 @@ footer: 'https://deepakkamboj.com'
 
 ## Deepak Kamboj
 
-### Senior Risk SRE<br>Azure CXP AzRel<br>Microsoft
+### Senior Software Engineer<br>Power Platform Team<br>Microsoft
 
 <i class="fa-brands fa-bluesky"></i> Website: [@deepakkamboj.com](https://deepakkamboj.com)
 <i class="fa-brands fa-linkedin"></i> LinkedIn: - [Deepak Kamboj](https://linkedin.com/in/kambojdeepak/)
