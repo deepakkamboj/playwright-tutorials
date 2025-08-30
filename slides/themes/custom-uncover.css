@@ -5,5 +5,8 @@
 
 section {
   /* Override default background */
-  background: #fff;
+
+        background: #181a20;
+  color: #e0e0e0;
+    
 }
