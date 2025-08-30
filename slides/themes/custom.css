@@ -1,9 +1,10 @@
 /* custom.css */
 /* @theme custom */
 
-section {
-    background: #fff;
-  }
+ section {
+        background: #181a20;
+  color: #e0e0e0;
+    }
 body {
   background: #181a20;
   color: #e0e0e0;
