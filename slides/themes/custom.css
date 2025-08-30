@@ -1,35 +1,6 @@
 /* custom.css */
 /* @theme custom */
 
- section {
-        background: #181a20;
-  color: #e0e0e0;
-    }
-body {
-  background: #181a20;
-  color: #e0e0e0;
-}
-
-.slide {
-  background: #181a20;
-  color: #e0e0e0;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  color: #fafafa;
-}
-
-pre, code {
-  background: #23272e;
-  color: #e0e0e0;
-  border-radius: 6px;
-}
-
-.marp-code {
-  background: #23272e !important;
-  color: #e0e0e0 !important;
-}
-
-.slide-footer {
-  color: #b0b0b0;
-}
+section {
+    background: #fff;
+  }
