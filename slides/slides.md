@@ -24,11 +24,21 @@ footer: 'https://deepakkamboj.com'
 
 
 ---
+<style scoped>
+  section {
+  /* It is important to reset `display: flex` from the default theme. */
+  display: block;
+}
+
+.cols-2 ol {
+  columns: 2;
+}
+</style>  
 
 # Agenda
 
-<div class="columns">
-<div>
+
+<div class="cols-2">
 - Introduction to Playwright
 - Why Playwright?
 - Playwright Architecture
@@ -48,7 +58,7 @@ footer: 'https://deepakkamboj.com'
   - Trace viewer
 
 </div>
-</div>
+
 
 
 ---
