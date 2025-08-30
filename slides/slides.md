@@ -39,6 +39,7 @@ footer: 'https://deepakkamboj.com'
 
 
 <div class="cols-2">
+  
 - Introduction to Playwright
 - Why Playwright?
 - Playwright Architecture
@@ -48,8 +49,6 @@ footer: 'https://deepakkamboj.com'
   - Auto Waits
   - Codeless Test Automation with Playwright
   - Locating Elements
-  </div>
-<div>
 - Playwright Tooling
   - Playwrighrt Codegen
   - UI Mode
