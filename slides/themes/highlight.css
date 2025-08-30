@@ -1,0 +1,29 @@
+/* slides/themes/highlight.css */
+/* Make highlights span full width of the code block */
+@theme highlight-demo
+@auto-scaling false;
+
+@import "default";
+
+pre ol {
+  all: unset;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  counter-reset: lno 0;
+}
+pre ol li { display: contents; }
+
+/* Line numbers */
+pre ol li > [data-lno]::before {
+  display: block;
+  counter-increment: lno;
+  content: counter(lno) " ";
+  text-align: right;
+  opacity: .6;
+  padding-right: .75rem;
+}
+
+/* The highlighted lines */
+pre ol li.hl > * {
+  background: #fff59d; /* tweak as you like */
+}
