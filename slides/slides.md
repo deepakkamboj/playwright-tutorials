@@ -323,6 +323,35 @@ npm i -D @playwright/test
 npm install --save-dev @playwright/test
 ```
 
+---
+
+# Test Configuration
+
+playwright.config.ts
+```ts
+import { defineConfig } from '@playwright/test';
+
+export default defineConfig({
+  timeout: 30000,
+  globalTimeout: 600000,
+  reporter: 'list',
+  testDir: './tests',
+});
+```
+---
+
+# globalSetup and globalTeardown
+
+playwright.config.ts
+```ts
+import { defineConfig } from '@playwright/test';
+
+export default defineConfig({
+  globalSetup: './global-setup',
+  globalTeardown: './global-teardown',
+  globalTimeout: process.env.CI ? 60 * 60 * 1000 : undefined,
+});
+```
 
 ---
 
@@ -371,7 +400,22 @@ export async function runTest(): Promise<void> {
 
 ---
 
+# Configure Retries Globally
 
+```bash
+npx playwright test –-retries=3
+```
+
+playwright.config.ts
+```ts
+import { defineConfig } from '@playwright/test';
+
+export default defineConfig({
+  retries: 3,
+});
+```
+
+---
 
 # Locators
 
